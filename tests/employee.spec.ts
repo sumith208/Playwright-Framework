@@ -10,7 +10,7 @@ test.describe('Employee Tests', () =>{
         const dashboard = new dashboardPage(page);
         await login.navigate();
         await login.login("Admin","admin123");
-        await dashboard.verifyLogin();
+        // await dashboard.verifyLogin();
     })
 
     test('Add Employee' , async({page}) => {

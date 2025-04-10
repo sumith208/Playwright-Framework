@@ -7,7 +7,7 @@ export default defineConfig({
   reporter: [['html']],
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     video: 'retain-on-failure',
     baseURL: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login',

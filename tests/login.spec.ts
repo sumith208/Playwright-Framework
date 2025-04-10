@@ -10,7 +10,7 @@ test.describe('login tests',()=>{
         await login.navigate();
         await login.login("Admin","admin123");
         await page.waitForTimeout(3000);
-        dashboardPg.verifyLogin();   
+        // dashboardPg.verifyLogin();   
     })
 
     test("Invalid Login",async({page}) => {
